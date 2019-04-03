@@ -1,0 +1,340 @@
+.header {
+    display: inline-flex;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+header {
+    margin: 0 auto;
+}
+
+.images {
+    width: 150px;
+}
+
+.address-above,
+.active {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item {
+    text-decoration: none;
+}
+
+.menu-dropdown {
+    float: right;
+    margin-right: 70px;
+    margin-top: -40px;
+}
+
+.dropdown-btn:hover {
+    color: red !important;
+}
+
+.dropdown-item {
+    display: block;
+}
+
+.dropdown-btn {
+    border: none;
+    float: right;
+    background: transparent;
+}
+
+.dropdown {
+    margin-top: -10px;
+    border-left: 1px solid;
+}
+
+.mySlides {
+    display: none;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.social {
+    display: flex;
+    margin-top: -5px;
+}
+
+.nav-pills {
+    list-style-type: none;
+    color: white;
+}
+
+.menu-end {
+    margin-left: -60px;
+}
+
+.menu {
+    margin-left: 200px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: transparent !important;
+}
+
+.w3-section {
+    margin-top: -150px;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.content-box {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #E9E7E7;
+    margin-top: 60px;
+}
+
+#slide,
+#slide2 {
+    padding: 10px;
+    margin-top: 60px;
+    background: aliceblue;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.content-detail {
+    padding: 25px;
+}
+
+.fade:not(.show) {
+    opacity: 1;
+}
+
+.nav-link-tab {
+    color: #9b9b9b;
+}
+
+.tab-active {
+    margin-left: -20px;
+}
+
+.nav-link.active {
+    border-color: transparent !important;
+    color: #4588cc !important;
+}
+
+.nav-link:hover {
+    border-color: transparent !important;
+}
+
+sub {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.price {
+    display: inline-flex;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+.image-notice {
+    height: 100px;
+}
+
+.box-card-notification {
+    display: flex;
+}
+
+.box-text {
+    margin-left: 20px;
+}
+
+.date {
+    color: gray;
+}
+
+.image-part:hover {
+    border: 1px solid #e3e8ea;
+    padding: 10px;
+    box-shadow: 5px 5px #888888;
+}
+
+#partner {
+    border-top: 1px solid #efefef;
+    margin-top: 60px;
+}
+
+.content-box {
+    border: 1px solid #e3e8ea;
+}
+
+.text-intro {
+    margin-top: 60px;
+}
+
+.intro {
+    font-weight: bold;
+}
+
+.title-part {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -20px;
+    font-family: 'UTMNeutra';
+    font-weight: bold;
+}
+
+#footer {
+    background: #025b93;
+}
+
+.address-footer {
+    color: white;
+}
+
+.logo-footer,
+.address-footer {
+    margin-top: 10px;
+}
+
+.menu-item-footer {
+    color: white;
+}
+
+.menu-footer-list {
+    margin-top: 40px;
+}
+
+.menu-list-right {
+    margin-top: 85px;
+}
+
+.title-web {
+    font-size: 1.125rem;
+    color: #fff;
+    line-height: 1.75rem;
+    font-family: 'UTMNeutra';
+    margin-bottom: 1.0625rem;
+}
+
+.connect {
+    margin-top: 60px;
+}
+
+#tab {
+    padding: 10px;
+}
+
+.social-links {
+    display: inline-flex;
+    list-style: none;
+}
+
+.fo-container {
+    display: flex;
+}
+
+.coppyright {
+    margin-right: 750px;
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid #6e6e71;
+}
+
+.social-icon {
+    list-style: none;
+    padding: 10px;
+}
+
+#notice {
+    padding: 2.5rem 0;
+    background: #fbfbfb;
+}
+
+.notice {
+    margin-bottom: -40px
+}
+
+
+/*slide*/
+
+.carousel-item {
+    margin-right: 0 !important;
+}
+
+.btn-slide {
+    background: #171616;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    /* show 3 items */
+    .carouselPrograms .carousel-inner .active,
+    .carouselPrograms .carousel-inner .active+.carousel-item,
+    .carouselPrograms .carousel-inner .active+.carousel-item+.carousel-item {
+        display: block;
+    }
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+        transition: none;
+    }
+    .carouselPrograms .carousel-inner .carousel-item-next,
+    .carouselPrograms .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    .carouselPrograms .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* left or forward direction */
+    .carouselPrograms .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+    .carouselPrograms .carousel-item-next.carousel-item-left+.carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be abso position for animations */
+    .carouselPrograms .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .carouselPrograms .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+    .carouselPrograms .carousel-item-prev.carousel-item-right+.carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
